@@ -1,0 +1,26 @@
+site_name: 20046-Security-wiki
+theme: 
+  name: material
+  palette:
+    scheme: default
+    primary: white
+  features:
+    - navigation.tabs
+    - header.autohide
+  icon:
+    repo: fontawesome/brands/github
+  edit_uri: ""
+  repo_url: https://github.com/xPessimist/Notes
+nav:
+- Start:
+  - index.md
+- Introduction: 
+  - Introduction/starttime.md
+- Web:
+  - web/start.md
+- Misc:
+  - misc/start.md
+- Reverse:
+  - reverse/start.md
+- Pwn:
+  - pwn/start.md
